@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="Stylesheet" href="styles.css" />
+
+    <script defer src="api-key.js?speed=2"></script>
+    <script defer src="script.js?speed=2"></script>
+
+    <script
+      src="https://kit.fontawesome.com/7b9dab873d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>To Do List</h1>
+
+        <input
+          type="text"
+          id="input"
+          name="input"
+          onfocus="this.value=' '"
+          value=" "
+        />
+
+        <button type="button" id="addButton">Add Task</button>
+      </div>
+
+      <div>
+        <ul id="taskList"></ul>
+      </div>
+
+    </div>
+
+  </body>
+</html>
